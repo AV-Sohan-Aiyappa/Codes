@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QRious Adventures - TEDxUVCE</title>
+  <style>
+    body {
+      background-color: #222; /* Black background */
+      color: #fff; /* White text */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 5px solid #FF0000; /* Bright red border */
+      border-radius: 10px; /* Rounded corners */
+      position: relative; /* Needed for decorative elements */
+    }
+    .container:after, .container:before {
+      content: "";
+      display: block;
+      width: 80%;
+      height: 2px;
+      background-color: #FF0000; /* Bright red decorative lines */
+      position: absolute;
+      top: -10px; /* Positions lines above the container */
+    }
+    .container:after {
+      left: 10%; /* Positions the right line */
+    }
+    .container:before {
+      right: 10%; /* Positions the left line */
+    }
+    .heading {
+      font-size: 4em;
+      color: #FF0000; /* Bright red */
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5); /* Subtle black shadow */
+    }
+    .subheading {
+      font-size: 1.2em;
+      font-weight: bold; /* Bold for subheading */
+      margin-bottom: 10px; /* Add space between subheading and message */
+      border-bottom: 2px solid #FF0000; /* Bright red separator line */
+      padding-bottom: 5px; /* Add padding below the line */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">QRious Adventures</h1>
+    <h2 class="subheading">Organised by TEDxUVCE</h2>
+    <p>Write a funny Haiku about the food you had for breakfast today </p>
+  </div>
+</body>
+</html>
