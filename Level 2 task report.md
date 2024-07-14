@@ -31,7 +31,7 @@ For this task, I built and evaluated a Random Forest classifier using the Iris d
 
 First, I loaded the Iris dataset and split it into training and test sets, with 70% of the data used for training and 30% for testing. I used the RandomForestClassifier from scikit-learn, setting the number of trees (estimators) to 100.
 
-After training the model on the training set, I used it to predict the species of the flowers in the test set. The model's accuracy was evaluated using the accuracy_score metric, achieving an accuracy of approximately 97%.
+After training the model on the training set, I used it to predict the species of the flowers in the test set. The model's accuracy was evaluated using the accuracy_score metric, achieving an accuracy of 100% .
 
 This task demonstrated the effectiveness of the Random Forest algorithm in classification tasks, leveraging the ensemble of multiple decision trees to make robust and accurate predictions.
 <br><br>
