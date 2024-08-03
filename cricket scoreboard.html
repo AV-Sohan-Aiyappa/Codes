@@ -20,6 +20,7 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             border-radius: 15px;
             border: 2px solid #d4eec7; /* Pale green border */
+            overflow-x: auto; /* Added to make the container scrollable if content overflows */
         }
         h1 {
             text-align: center;
@@ -81,6 +82,19 @@
         }
         .target strong, .final-score strong, .winner strong {
             color: #333;
+        }
+        @media (max-width: 600px) {
+            th, td {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+            .container {
+                padding: 10px;
+            }
+            .target, .final-score, .winner {
+                font-size: 1em;
+                padding: 8px;
+            }
         }
     </style>
 </head>
@@ -281,7 +295,7 @@
             <tr>
                 <td>9</td>
                 <td>0</td>
-                <td>OUT</</td>
+                <td>OUT</td>
                 <td>0</td>
                 <td>0</td>
                 <td>1</td>
@@ -308,4 +322,5 @@
     </div>
 </body>
 </html>
+
 
